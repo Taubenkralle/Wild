@@ -128,7 +128,7 @@ func _zeichne_karte() -> void:
 	for y in KARTE_HOEHE:
 		for x in KARTE_BREITE:
 			var typ: int = KARTE[y][x]
-			var farbe: Color = FARBEN[typ]
+			var farbe: Color = FARBEN[typ] as Color
 			var pixel_x := x * kachelgroesse
 			var pixel_y := y * kachelgroesse
 			var kachel_rect := Rect2(pixel_x, pixel_y, kachelgroesse, kachelgroesse)
@@ -137,7 +137,7 @@ func _zeichne_karte() -> void:
 			draw_rect(kachel_rect, farbe)
 
 			# Obere und linke Kante etwas heller (Lichtquelle oben-links)
-			var hell := FARBEN_HELL[typ]
+			var hell: Color = FARBEN_HELL[typ] as Color
 			draw_line(
 				Vector2(pixel_x, pixel_y),
 				Vector2(pixel_x + kachelgroesse, pixel_y),
