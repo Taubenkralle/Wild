@@ -1,0 +1,11 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1777062914
+::res://assets/::1777062631
+::res://assets/tiles/::1777062631
+::res://scenes/::1777062847
+Proto1_Klein.tscn::PackedScene::-1::1777062841::0::1::::<><><>0<>0<><>::res://scripts/ProtoWelt.gd
+Proto2_Mittel.tscn::PackedScene::-1::1777062844::0::1::::<><><>0<>0<><>::res://scripts/ProtoWelt.gd
+Proto3_Gross.tscn::PackedScene::-1::1777062847::0::1::::<><><>0<>0<><>::res://scripts/ProtoWelt.gd
+Welt.tscn::PackedScene::-1::1777062645::0::1::::<><><>0<>0<><>::res://scripts/Welt.gd<>res://scripts/Spieler.gd<>res://scripts/Kamera.gd
+::res://scripts/::1777062836
+ProtoWelt.gd::GDScript::158138311414390624::1777062836::0::1::::<>Node2D<><>0<>0<><>::
