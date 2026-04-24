@@ -240,7 +240,7 @@ func _zeichne_haus() -> void:
 
 	# Zwei Fenster
 	for seite in [-1.0, 1.0]:
-		var fx := px + bw * 0.5 + seite * g * 0.80 - g * 0.20
+		var fx: float = px + bw * 0.5 + float(seite) * g * 0.80 - g * 0.20
 		var fy := py + g * 1.25
 		var fw := g * 0.40
 		var fh := g * 0.32
